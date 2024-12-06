@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6236477102954724365}
   - component: {fileID: 6382579513545990837}
   - component: {fileID: 5483271480497144524}
+  - component: {fileID: 3797925136954589921}
   m_Layer: 6
   m_Name: Front_Door_01_LOD0
   m_TagString: Untagged
@@ -182,9 +183,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dynamicType: 0
-  dynamicStatus: 0
+  dynamicStatus: 1
   interactType: 0
-  statusChange: 0
+  statusChange: 1
   target: {fileID: 2720190706042845598}
   audioSource: {fileID: 0}
   animator: {fileID: 0}
@@ -474,6 +475,54 @@ MonoBehaviour:
   lockPlayer: 0
   isLocked: 0
   isInteractLocked: 0
+--- !u!114 &3797925136954589921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987742914681786465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081f2b1648ad3df4395fce61af819bf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LockpickModel: {fileID: 3451697667498856111, guid: 2e8b730fbf6347746ac0fda6de7bf3eb, type: 3}
+  UnlockAngle: 37.7
+  RandomUnlockAngle: 0
+  IsDynamicUnlockComponent: 1
+  LockpickRotation: {x: 0, y: 180, z: 0}
+  LockpickDistance: 1
+  LockpicksText:
+    GlocText: '*test'
+    NormalText: 
+  ControlsContexts: []
+  BobbyPinItem:
+    m_GUID: 9c45e9931ae9492dba1cf41854f95de0
+    m_Item:
+      Name: Lockpick
+      GUID: 9c45e9931ae9492dba1cf41854f95de0
+      Icon: {fileID: 2800000, guid: 03830137119a4c74bb36000faee0dfeb, type: 3}
+    m_Section:
+      Name: Usables
+      GUID: be7f17ba3cb145e6883bea6a70f0deb7
+  BobbyPinLimits:
+    min: -76.68
+    max: 74.97
+  BobbyPinUnlockDistance: 0.1
+  BobbyPinLifetime: 2
+  UnbreakableBobbyPin: 0
+  KeyholeMaxTestRange: 6.8
+  KeyholeUnlockTarget: 0.1
+  OnUnlock:
+    m_PersistentCalls:
+      m_Calls: []
+  LockpickUI: {fileID: 0}
+  LockpickText: {fileID: 0}
+  PlayerPresence: {fileID: 0}
+  PlayerManager: {fileID: 0}
+  DynamicObject: {fileID: 0}
+  GameManager: {fileID: 0}
 --- !u!1 &1204967510069863273
 GameObject:
   m_ObjectHideFlags: 0

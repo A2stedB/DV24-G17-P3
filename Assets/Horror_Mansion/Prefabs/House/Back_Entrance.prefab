@@ -331,6 +331,7 @@ GameObject:
   - component: {fileID: 4332384339706985842}
   - component: {fileID: 6016223010036450719}
   - component: {fileID: 7127255097867772599}
+  - component: {fileID: 7636803689547559335}
   m_Layer: 6
   m_Name: Back_Entrance_LOD0
   m_TagString: Untagged
@@ -791,6 +792,54 @@ MonoBehaviour:
   FalseExamineTitle:
     GlocText: 
     NormalText: 
+--- !u!114 &7636803689547559335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7900552146075406074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081f2b1648ad3df4395fce61af819bf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LockpickModel: {fileID: 3451697667498856111, guid: 2e8b730fbf6347746ac0fda6de7bf3eb, type: 3}
+  UnlockAngle: 9.9
+  RandomUnlockAngle: 0
+  IsDynamicUnlockComponent: 1
+  LockpickRotation: {x: 0, y: 180, z: 0}
+  LockpickDistance: 0.3
+  LockpicksText:
+    GlocText: 
+    NormalText: 
+  ControlsContexts: []
+  BobbyPinItem:
+    m_GUID: 9c45e9931ae9492dba1cf41854f95de0
+    m_Item:
+      Name: Lockpick
+      GUID: 9c45e9931ae9492dba1cf41854f95de0
+      Icon: {fileID: 2800000, guid: 03830137119a4c74bb36000faee0dfeb, type: 3}
+    m_Section:
+      Name: Usables
+      GUID: be7f17ba3cb145e6883bea6a70f0deb7
+  BobbyPinLimits:
+    min: -3.69
+    max: 21.33
+  BobbyPinUnlockDistance: 0.1
+  BobbyPinLifetime: 7
+  UnbreakableBobbyPin: 1
+  KeyholeMaxTestRange: 16.1
+  KeyholeUnlockTarget: 6.73
+  OnUnlock:
+    m_PersistentCalls:
+      m_Calls: []
+  LockpickUI: {fileID: 0}
+  LockpickText: {fileID: 0}
+  PlayerPresence: {fileID: 0}
+  PlayerManager: {fileID: 0}
+  DynamicObject: {fileID: 0}
+  GameManager: {fileID: 0}
 --- !u!1 &8483518779555737105
 GameObject:
   m_ObjectHideFlags: 0
