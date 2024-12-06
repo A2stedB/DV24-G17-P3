@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: DialogueSotano 2
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 0}
+  - DialogueAudio: {fileID: 8300000, guid: 782faa4571fcb7d45add7e2407887902, type: 3}
     SubtitleType: 0
     SingleSubtitle:
       Time: 0
-      Narrator: "*Ahora ya deber\xEDa tener electricidad en el keypad. Voy a comprobarlo."
+      Narrator: Alexander
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: 
+        GlocText: "*Ahora ya deber\xEDa tener electricidad en el keypad. Voy a comprobarlo."
         NormalText: 
     Subtitles: []

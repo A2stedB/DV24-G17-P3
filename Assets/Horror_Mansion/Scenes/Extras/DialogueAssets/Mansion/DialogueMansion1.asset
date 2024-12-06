@@ -12,4 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93cb5bd7e8a706a41b793e7440b34eea, type: 3}
   m_Name: DialogueMansion1
   m_EditorClassIdentifier: 
-  Dialogues: []
+  Dialogues:
+  - DialogueAudio: {fileID: 8300000, guid: 782faa4571fcb7d45add7e2407887902, type: 3}
+    SubtitleType: 0
+    SingleSubtitle:
+      Time: 0
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*Coff, Coff. Parece que Mr.Smith no ha limpiado en un tiempo.\u201D
+          (Presiona \u20181\u2019 para encender tu linterna)"
+        NormalText: 
+    Subtitles: []

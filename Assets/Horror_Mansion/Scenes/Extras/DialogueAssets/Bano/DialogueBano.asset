@@ -17,9 +17,9 @@ MonoBehaviour:
     SubtitleType: 0
     SingleSubtitle:
       Time: 0
-      Narrator: "*\xA1\xBFPero qu\xE9 ha sido eso?!."
+      Narrator: 'Alexander:'
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: 
+        GlocText: "*\xA1\xBFPero qu\xE9 ha sido eso?!."
         NormalText: 
     Subtitles: []

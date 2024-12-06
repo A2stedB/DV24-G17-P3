@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: DialogueTrastero
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 0}
+  - DialogueAudio: {fileID: 8300000, guid: 782faa4571fcb7d45add7e2407887902, type: 3}
     SubtitleType: 0
     SingleSubtitle:
       Time: 0
-      Narrator: "*\xA1\xBFQu\xE9 ha sido eso?!"
+      Narrator: Alexander
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: 
+        GlocText: "*\xA1\xBFQu\xE9 ha sido eso?!"
         NormalText: 
     Subtitles: []
