@@ -13,31 +13,31 @@ MonoBehaviour:
   m_Name: (Objectives) Demo
   m_EditorClassIdentifier: 
   Objectives:
-  - ObjectiveKey: Entrar a la mansion
+  - ObjectiveKey: Entrar en la mansion
     ObjectiveTitle:
-      GlocText: '*Acercar a la mansion'
-      NormalText: Acercar a la mansion
+      GlocText: "*Entra en la mansi\xF3n"
+      NormalText: "Entra en la mansi\xF3n"
     SubObjectives:
     - SubObjectiveKey: Mirar nota
       CompleteCount: 0
       ObjectiveText:
         GlocText: '*Pulsar [TAB] para abrir inventario.'
         NormalText: Pulsar [TAB] para abrir inventario.
-    - SubObjectiveKey: Acercar a la puerta
+    - SubObjectiveKey: "Fuerza la puerta para entrar en la mansi\xF3n"
       CompleteCount: 0
       ObjectiveText:
-        GlocText: '*Pulsar [TAB] para abrir inventario.'
-        NormalText: Pulsar [TAB] para abrir inventario.
+        GlocText: "*Fuerza la puerta para entrar en la mansi\xF3n"
+        NormalText: "Fuerza la puerta para entrar en la mansi\xF3n"
   - ObjectiveKey: Encontrar la habitacion
     ObjectiveTitle:
-      GlocText: '*Encontrar la habitacion del profesor'
-      NormalText: Encontrar la habitacion del profesor
+      GlocText: "*Encuentra la habitaci\xF3n del profesor"
+      NormalText: "Encuentra la habitaci\xF3n del profesor"
     SubObjectives:
     - SubObjectiveKey: Buscar por la segunda planta
       CompleteCount: 0
       ObjectiveText:
-        GlocText: '*Mirar las habitaciones de la segunda planta'
-        NormalText: Mirar las habitaciones de la segunda planta
+        GlocText: '*Busca entre las habitaciones de la segunda planta'
+        NormalText: Busca entre las habitaciones de la segunda planta
   - ObjectiveKey: Reiniciar la electricidad
     ObjectiveTitle:
       GlocText: '*Reiniciar la electricidad'
@@ -46,13 +46,13 @@ MonoBehaviour:
     - SubObjectiveKey: Buscar fusibles por la mansion
       CompleteCount: 4
       ObjectiveText:
-        GlocText: Buscar fusibles por la mansion
-        NormalText: Buscar fusibles por la mansion
+        GlocText: Busca fusibles por la mansion [count]/4
+        NormalText: Busca fusibles por la mansion [count]/4
     - SubObjectiveKey: Ir al sotano
       CompleteCount: 0
       ObjectiveText:
-        GlocText: '*Ir al sotano'
-        NormalText: Ir al sotano
+        GlocText: '*Reinicia la electricidad con los fusibles'
+        NormalText: Reinicia la electricidad con los fusibles
   - ObjectiveKey: "La contrase\xF1a?"
     ObjectiveTitle:
       GlocText: "*La contrase\xF1a?"
@@ -61,10 +61,10 @@ MonoBehaviour:
     - SubObjectiveKey: "Buscar pistas de la contrase\xF1a por la mansion"
       CompleteCount: 0
       ObjectiveText:
-        GlocText: "*Buscar pistas de la contrase\xF1a por la mansion"
-        NormalText: "Buscar pistas de la contrase\xF1a por la mansion"
+        GlocText: "*Busca pistas de la contrase\xF1a por la mansi\xF3n"
+        NormalText: "Busca pistas de la contrase\xF1a por la mansi\xF3n"
   - ObjectiveKey: La verdad
     ObjectiveTitle:
       GlocText: '*La verdad'
-      NormalText: 
+      NormalText: La verdad
     SubObjectives: []
