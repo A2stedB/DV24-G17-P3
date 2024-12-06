@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55106f91a38b6d4a8120c7aec3aa82d, type: 3}
+  m_Name: (Objectives) Demo
+  m_EditorClassIdentifier: 
+  Objectives:
+  - ObjectiveKey: Entrar a la mansion
+    ObjectiveTitle:
+      GlocText: '*Acercar a la mansion'
+      NormalText: Acercar a la mansion
+    SubObjectives:
+    - SubObjectiveKey: Mirar nota
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Pulsar [TAB] para abrir inventario.'
+        NormalText: Pulsar [TAB] para abrir inventario.
+    - SubObjectiveKey: Acercar a la puerta
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Pulsar [TAB] para abrir inventario.'
+        NormalText: Pulsar [TAB] para abrir inventario.
+  - ObjectiveKey: Encontrar la habitacion
+    ObjectiveTitle:
+      GlocText: '*Encontrar la habitacion del profesor'
+      NormalText: Encontrar la habitacion del profesor
+    SubObjectives:
+    - SubObjectiveKey: Buscar por la segunda planta
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Mirar las habitaciones de la segunda planta'
+        NormalText: Mirar las habitaciones de la segunda planta
+  - ObjectiveKey: Reiniciar la electricidad
+    ObjectiveTitle:
+      GlocText: '*Reiniciar la electricidad'
+      NormalText: Reiniciar la electricidad
+    SubObjectives:
+    - SubObjectiveKey: Buscar fusibles por la mansion
+      CompleteCount: 4
+      ObjectiveText:
+        GlocText: Buscar fusibles por la mansion
+        NormalText: Buscar fusibles por la mansion
+    - SubObjectiveKey: Ir al sotano
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Ir al sotano'
+        NormalText: Ir al sotano
+  - ObjectiveKey: "La contrase\xF1a?"
+    ObjectiveTitle:
+      GlocText: "*La contrase\xF1a?"
+      NormalText: "La contrase\xF1a?"
+    SubObjectives:
+    - SubObjectiveKey: "Buscar pistas de la contrase\xF1a por la mansion"
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: "*Buscar pistas de la contrase\xF1a por la mansion"
+        NormalText: "Buscar pistas de la contrase\xF1a por la mansion"
+  - ObjectiveKey: La verdad
+    ObjectiveTitle:
+      GlocText: '*La verdad'
+      NormalText: 
+    SubObjectives: []
