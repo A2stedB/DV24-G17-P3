@@ -17,10 +17,11 @@ MonoBehaviour:
     SubtitleType: 0
     SingleSubtitle:
       Time: 0
-      Narrator: "*Seg\xFAn la nota del compa\xF1ero, esta es su direcci\xF3n. No
-        sab\xEDa que Mr. Smith viviese en un lugar as\xED"
+      Narrator: Alexander
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: 
+        GlocText: "*Seg\xFAn la nota del compa\xF1ero, esta es su direcci\xF3n. No
+          sab\xEDa que Mr. Smith viviese en un lugar as\xED (Presiona [TAB] para
+          abrir el inventario)"
         NormalText: 
     Subtitles: []

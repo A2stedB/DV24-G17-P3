@@ -17,10 +17,10 @@ MonoBehaviour:
     SubtitleType: 0
     SingleSubtitle:
       Time: 0
-      Narrator: "*De alguna manera, Mr. Smith ha conseguido una fotograf\xEDa m\xEDa
-        con uno de mis clientes. No puedo permitir que me expulsen de la universidad"
+      Narrator: Alexander
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: 
+        GlocText: "*De alguna manera, Mr. Smith ha conseguido una fotograf\xEDa m\xEDa
+          con uno de mis clientes. No puedo permitir que me expulsen de la universidad"
         NormalText: 
     Subtitles: []

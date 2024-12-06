@@ -17,9 +17,10 @@ MonoBehaviour:
     SubtitleType: 0
     SingleSubtitle:
       Time: 0
-      Narrator: "*La puerta parece antigua, forzar la cerradura deber\xEDa ser f\xE1cil."
+      Narrator: Alexander
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: 
+        GlocText: "*La puerta parece antigua, forzar la cerradura deber\xEDa ser
+          f\xE1cil."
         NormalText: 
     Subtitles: []

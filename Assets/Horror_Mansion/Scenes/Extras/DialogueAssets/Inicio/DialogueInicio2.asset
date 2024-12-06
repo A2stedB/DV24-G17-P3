@@ -17,11 +17,11 @@ MonoBehaviour:
     SubtitleType: 0
     SingleSubtitle:
       Time: 0
-      Narrator: '*Hace un mes que no vuelve a clase, se rumorea que ha tenido que
-        viajar a casa de unos familiares en otro estado. Es el momento perfecto para
-        eliminar las pruebas.'
+      Narrator: Alexander
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: 
+        GlocText: '*Hace un mes que no vuelve a clase, se rumorea que ha tenido que
+          viajar a casa de unos familiares en otro estado. Es el momento perfecto
+          para eliminar las pruebas.'
         NormalText: 
     Subtitles: []

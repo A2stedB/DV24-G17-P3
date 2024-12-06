@@ -17,10 +17,10 @@ MonoBehaviour:
     SubtitleType: 0
     SingleSubtitle:
       Time: 0
-      Narrator: '*Por lo que me ha dicho Helena, aqui es donde vive el porfesor Edward,
-        Craven Street. Pero esto parece muy abandonado'
+      Narrator: Alexander
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: 
+        GlocText: '*Por lo que me ha dicho Helena, aqui es donde vive el porfesor
+          Edward, Craven Street. Pero esto parece muy abandonado'
         NormalText: 
     Subtitles: []
