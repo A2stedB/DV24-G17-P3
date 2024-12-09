@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DialogueInicio3
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 8300000, guid: dd7097938c8985c46af6646be4efe04e, type: 3}
-    SubtitleType: 0
+  - DialogueAudio: {fileID: 8300000, guid: fa46ac2b12b72824bb631c95ae5ef444, type: 3}
+    SubtitleType: 1
     SingleSubtitle:
       Time: 0
       Narrator: Alexander
@@ -23,4 +23,11 @@ MonoBehaviour:
         GlocText: "*La puerta parece antigua, forzar la cerradura deber\xEDa ser
           f\xE1cil."
         NormalText: 
-    Subtitles: []
+    Subtitles:
+    - Time: 0.6014217
+      Narrator: Alexcander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*La puerta parece antigua, forzar la cerradura deber\xEDa ser
+          f\xE1cil."
+        NormalText: 

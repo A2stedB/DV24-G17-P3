@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DialogueBano
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 0}
-    SubtitleType: 0
+  - DialogueAudio: {fileID: 8300000, guid: 8916501c8611918458a7d1d0987ee197, type: 3}
+    SubtitleType: 1
     SingleSubtitle:
       Time: 0
       Narrator: 'Alexander:'
@@ -22,4 +22,10 @@ MonoBehaviour:
       Text:
         GlocText: "*\xA1\xBFPero qu\xE9 ha sido eso?!."
         NormalText: 
-    Subtitles: []
+    Subtitles:
+    - Time: 0.6773067
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*\xA1\xBFQu\xE9 ha sido eso?!."
+        NormalText: 

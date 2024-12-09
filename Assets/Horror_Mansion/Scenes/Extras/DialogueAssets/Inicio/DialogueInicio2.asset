@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DialogueInicio2
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 8300000, guid: dd7097938c8985c46af6646be4efe04e, type: 3}
-    SubtitleType: 0
+  - DialogueAudio: {fileID: 8300000, guid: 4200a9555509bbb4dab0738356792f05, type: 3}
+    SubtitleType: 1
     SingleSubtitle:
       Time: 0
       Narrator: Alexander
@@ -24,4 +24,17 @@ MonoBehaviour:
           viajar a casa de unos familiares en otro estado. Es el momento perfecto
           para eliminar las pruebas.'
         NormalText: 
-    Subtitles: []
+    Subtitles:
+    - Time: 0.45582876
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*Hace un mes que no  vuelve a clase, se rumorea que ha tenido
+          que viajar a casa de unos familiares en otro estado.'
+        NormalText: 
+    - Time: 5.466569
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*Es el momento perfecto para eliminar las pruebas.'
+        NormalText: 

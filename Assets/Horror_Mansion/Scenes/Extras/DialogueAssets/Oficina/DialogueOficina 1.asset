@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DialogueOficina 1
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 8300000, guid: 782faa4571fcb7d45add7e2407887902, type: 3}
-    SubtitleType: 0
+  - DialogueAudio: {fileID: 8300000, guid: 3583cf0f60d801644a39746da896bb76, type: 3}
+    SubtitleType: 1
     SingleSubtitle:
       Time: 0
       Narrator: Alexander
@@ -23,4 +23,16 @@ MonoBehaviour:
         GlocText: "*El profesor nunca ha mencionado su colaboraci\xF3n en este proyecto\u2026
           Y parece ser que es un proyecto muy importante\u2026"
         NormalText: 
-    Subtitles: []
+    Subtitles:
+    - Time: 0.2894191
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*El profesor nunca ha mencionado su colaboraci\xF3n en este proyecto\u2026 "
+        NormalText: 
+    - Time: 3.6434352
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*Y parece ser que es un proyecto muy importante\u2026"
+        NormalText: 

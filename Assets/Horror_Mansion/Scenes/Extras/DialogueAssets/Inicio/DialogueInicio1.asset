@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DialogueInicio1
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 8300000, guid: dd7097938c8985c46af6646be4efe04e, type: 3}
-    SubtitleType: 0
+  - DialogueAudio: {fileID: 8300000, guid: 2d16809fc01edb444941b28854463394, type: 3}
+    SubtitleType: 1
     SingleSubtitle:
       Time: 0
       Narrator: Alexander
@@ -23,4 +23,17 @@ MonoBehaviour:
         GlocText: "*De alguna manera, Mr. Smith ha conseguido una fotograf\xEDa m\xEDa
           con uno de mis clientes. No puedo permitir que me expulsen de la universidad"
         NormalText: 
-    Subtitles: []
+    Subtitles:
+    - Time: 0.60360974
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*De alguna manera, Mr. Smith ha conseguido una fotograf\xEDa m\xEDa
+          con uno de mis clientes. "
+        NormalText: 
+    - Time: 5.187171
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*No puedo permitir que me expulsen de la universidad.'
+        NormalText: 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DialogueTrastero2
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 8300000, guid: 782faa4571fcb7d45add7e2407887902, type: 3}
+  - DialogueAudio: {fileID: 8300000, guid: 683250ebcf36266438072ab3454bb595, type: 3}
     SubtitleType: 0
     SingleSubtitle:
       Time: 0

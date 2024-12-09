@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DialogueOficina
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 8300000, guid: 782faa4571fcb7d45add7e2407887902, type: 3}
-    SubtitleType: 0
+  - DialogueAudio: {fileID: 8300000, guid: 2751e5becc5d4264fb99a73296e26388, type: 3}
+    SubtitleType: 1
     SingleSubtitle:
       Time: 0
       Narrator: Alexander
@@ -22,4 +22,10 @@ MonoBehaviour:
       Text:
         GlocText: "*\xA1\xBFQu\xE9 est\xE1 pasando en esta casa?!"
         NormalText: 
-    Subtitles: []
+    Subtitles:
+    - Time: 0.644938
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*\xA1\xBFQu\xE9 est\xE1 pasando en esta casa?!"
+        NormalText: 

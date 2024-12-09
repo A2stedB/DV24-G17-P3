@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DialogueSotano
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 0}
-    SubtitleType: 0
+  - DialogueAudio: {fileID: 8300000, guid: 7a325b2352578334a8475bea7daf8b3b, type: 3}
+    SubtitleType: 1
     SingleSubtitle:
       Time: 0
       Narrator: Alexander
@@ -22,4 +22,10 @@ MonoBehaviour:
       Text:
         GlocText: "*\xA1Joder!"
         NormalText: 
-    Subtitles: []
+    Subtitles:
+    - Time: 0.5370124
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*\xA1Joder!"
+        NormalText: 

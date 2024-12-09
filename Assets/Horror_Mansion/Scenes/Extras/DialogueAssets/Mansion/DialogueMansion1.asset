@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DialogueMansion1
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 8300000, guid: 782faa4571fcb7d45add7e2407887902, type: 3}
-    SubtitleType: 0
+  - DialogueAudio: {fileID: 8300000, guid: 60a7ba727afa57348addcecb0e9ca6fb, type: 3}
+    SubtitleType: 1
     SingleSubtitle:
       Time: 0
       Narrator: Alexander
@@ -23,4 +23,22 @@ MonoBehaviour:
         GlocText: "*Coff, Coff. Parece que Mr.Smith no ha limpiado en un tiempo.\u201D
           (Presiona \u20181\u2019 para encender tu linterna)"
         NormalText: 
-    Subtitles: []
+    Subtitles:
+    - Time: 0.60313493
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*Coff, Coff. Parece que Mr.Smith no ha limpiado en un tiempo. '
+        NormalText: 
+    - Time: 4.6437697
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*Tengo que encontrar las fotos y destruirlas.'
+        NormalText: 
+    - Time: 6.6418853
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*Probablemente est\xE1n en su oficina."
+        NormalText: 
