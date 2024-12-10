@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DialogueInicio1
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 8300000, guid: 2d16809fc01edb444941b28854463394, type: 3}
+  - DialogueAudio: {fileID: 8300000, guid: 5bd8c7e3e1ec71f48bfc892419477bd2, type: 3}
     SubtitleType: 1
     SingleSubtitle:
       Time: 0
@@ -36,4 +36,24 @@ MonoBehaviour:
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
         GlocText: '*No puedo permitir que me expulsen de la universidad.'
+        NormalText: 
+    - Time: 7.841829
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*Hace un mes que no  vuelve a clase, se rumorea que ha tenido
+          que viajar a casa de unos familiares en otro estado. '
+        NormalText: 
+    - Time: 12.725365
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '* Es el momento perfecto para eliminar las pruebas.'
+        NormalText: 
+    - Time: 15.3549595
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*Seg\xFAn la nota del compa\xF1ero, esta es su direcci\xF3n. No
+          sab\xEDa que Mr. Smith viviese en un lugar as\xED."
         NormalText: 

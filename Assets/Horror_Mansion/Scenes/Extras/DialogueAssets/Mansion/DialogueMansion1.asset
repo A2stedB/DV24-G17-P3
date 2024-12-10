@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DialogueMansion1
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 8300000, guid: 60a7ba727afa57348addcecb0e9ca6fb, type: 3}
+  - DialogueAudio: {fileID: 8300000, guid: 606a71fc6bb177e4d8c3f625ba857552, type: 3}
     SubtitleType: 1
     SingleSubtitle:
       Time: 0
