@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DialogueSotano 1
   m_EditorClassIdentifier: 
   Dialogues:
-  - DialogueAudio: {fileID: 8300000, guid: 782faa4571fcb7d45add7e2407887902, type: 3}
-    SubtitleType: 0
+  - DialogueAudio: {fileID: 8300000, guid: 7d11ac2abc8264b47b67a5abc6ce2332, type: 3}
+    SubtitleType: 1
     SingleSubtitle:
       Time: 0
       Narrator: Alexander
@@ -23,4 +23,11 @@ MonoBehaviour:
         GlocText: "*El profesor era joven cuando escribi\xF3 esto, me pregunto si
           al final ha sucedido algo con esa chica\u2026"
         NormalText: 
-    Subtitles: []
+    Subtitles:
+    - Time: 0
+      Narrator: Alexander
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: "*El profesor era joven cuando escribi\xF3 esto, me pregunto si
+          al final ha sucedido algo con esa chica\u2026"
+        NormalText: 
