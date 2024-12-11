@@ -27,5 +27,5 @@ MonoBehaviour:
       Narrator: Alexander
       NarratorColor: {r: 1, g: 1, b: 1, a: 1}
       Text:
-        GlocText: "*Ahora ya deber\xEDa tener electricidad en el keypad."
+        GlocText: '*El keypad no funciona, debo restaurar la electricidad.'
         NormalText: 
